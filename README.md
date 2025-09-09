@@ -3,9 +3,9 @@
 
 ## EC2
 
-* EC2, são maquinas virtuais na aws podendo ser composta dos sistemas operacionais windows ou Linux, possuem cpu, memória, dico, rede e sistema operacional.
+* EC2, são maquinas virtuais na AWS , possuem CPU, memória, dico, rede e sistema operacional.
 
-* O EC2 é do tipo Iaas, infraestrutura como recursos, nesse caso o gerenciamento do maquina virtual é de responsabilidade do desenvolvedor/cliente.
+* O EC2 é do tipo Iaas, infraestrutura como serviço, nesse caso o gerenciamento do maquina virtual é de responsabilidade do desenvolvedor/cliente, o provisionamento da infraestrutura e feita pela AWS.
 
 ### Tipos de instâncias EC2
 
@@ -36,7 +36,7 @@
 ### EBS
 
 * É uma storage que pode ser anexado em qualquer instância EC2, possui um volume de armazenamento, funciona como um HD externo.
-* Pode ser usado para armazenamento de banco de dados; MySQL, PostgreSQL, e oracle
+* Pode ser usado para armazenamento de banco de dados; MySQL, PostgreSQL, e Oracle
 * Armazenar dados para app webs e logs de sistemas.
 * Só pode ser acessado pela instância à qual está anexado.
 * Continua existindo mesmo se a instância for desligada (a menos que você configure para deletar junto).
